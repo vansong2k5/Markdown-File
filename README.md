@@ -37,25 +37,34 @@ Example: `>This is Quotation:`
 Example: This is `text`   
 ## 5. 💡Table
 - Use `Ctrl + Shift + p` or `F1` to find `Markdown Preview Enchance: Insert Table` to insert a table
-  
-| #   | Title 1                  |                  Title 2 |
-| --- | :----------------------- | -----------------------: |
-| 1   | This content video viral | This content video viral |
-| 2   | This content video viral | This content video viral |
-| 3   | This content video viral | This content video viral |
-| 4   | This content video viral | This content video viral |
-| 5   | This content video viral | This content video viral |
-| 6   | This content video viral | This content video viral |
-| 7   | This content video viral | This content video viral |
+Example:
+`
+| #   | Title 1 | Title 2 |
+| --- | :------ | ------: |
+| 1   | Content | Content |
+| 2   | Content | Content |
+| 3   | Content | Content |
+| 4   | Content | Content |
+`
 
-Note: Use `Alt + Shift + F` to Format Table
-Note: The `:` mark is used for alignment
+| #   | Title 1 | Title 2 |
+| --- | :------ | ------: |
+| 1   | Content | Content |
+| 2   | Content | Content |
+| 3   | Content | Content |
+| 4   | Content | Content |
+
+
+Use `Alt + Shift + F` to Format Table
+>Note: The `:` mark is used for alignment
 ## 6. 💡Code style 
 - Use ` ``` ` to format code style 
-Example: 
+Example:
+>` ``` Python print("Hello Word") ``` ` 
 ```Python
 print("Hello Word")
 ```
+>` ```C++ cout<<("Hello Word") ``` `
 ```C++
 cout<<("Hello Word")
 ```
